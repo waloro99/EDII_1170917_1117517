@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "Lab_Repaso_EstrucII/1.0.0": {
+        "runtime": {
+          "Lab_Repaso_EstrucII.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Lab_Repaso_EstrucII/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
