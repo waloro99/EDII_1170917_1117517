@@ -4,7 +4,8 @@ using System.Text;
 
 namespace Lab_Repaso_EstrucII
 {
-    class Movies
+    static class Movies
     {
+       
     }
 }
