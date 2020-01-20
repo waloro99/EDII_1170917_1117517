@@ -16,4 +16,5 @@ namespace API.Class
 
         List<Movies> Lista { get; set; }
     }
+
 }
