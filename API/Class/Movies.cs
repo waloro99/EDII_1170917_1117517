@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 
 namespace API.Class
 {
+    //uses pass to referent, with gets and sets
     public class Movies
     {
         public string Name { get; set; }
