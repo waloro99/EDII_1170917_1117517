@@ -13,7 +13,8 @@ namespace API.Controllers
     public class MovieController : ControllerBase
     {
 
-        private readonly MovieSingleton _movie;
+        //private readonly MovieSingleton _movie;
+        private readonly static MovieSingleton _movie = new MovieSingleton();
 
         // GET: api/Movie
         [HttpGet]

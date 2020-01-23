@@ -8044,23 +8044,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\majoj\\.nuget\\packages\\": {},
+    "C:\\Users\\walte\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Universidad\\1er ciclo 2020\\EstructuraII\\Lab\\EDII_1170917_1117517\\API\\API.csproj",
+      "projectUniqueName": "C:\\Users\\walte\\OneDrive\\Documentos\\papucho\\2020\\7mo Ciclo\\Estructuras II\\Repositorio EstrucII\\EDII_1170917_1117517\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "D:\\Universidad\\1er ciclo 2020\\EstructuraII\\Lab\\EDII_1170917_1117517\\API\\API.csproj",
-      "packagesPath": "C:\\Users\\majoj\\.nuget\\packages\\",
-      "outputPath": "D:\\Universidad\\1er ciclo 2020\\EstructuraII\\Lab\\EDII_1170917_1117517\\API\\obj\\",
+      "projectPath": "C:\\Users\\walte\\OneDrive\\Documentos\\papucho\\2020\\7mo Ciclo\\Estructuras II\\Repositorio EstrucII\\EDII_1170917_1117517\\API\\API.csproj",
+      "packagesPath": "C:\\Users\\walte\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\walte\\OneDrive\\Documentos\\papucho\\2020\\7mo Ciclo\\Estructuras II\\Repositorio EstrucII\\EDII_1170917_1117517\\API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\majoj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\walte\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8124,5 +8124,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema al leer el archivo de caché C:\\Users\\walte\\OneDrive\\Documentos\\papucho\\2020\\7mo Ciclo\\Estructuras II\\Repositorio EstrucII\\EDII_1170917_1117517\\API\\obj\\API.csproj.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
