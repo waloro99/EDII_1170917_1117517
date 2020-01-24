@@ -1,6 +1,8 @@
 ﻿using API.Class;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
+using System.Linq;
+
 namespace API.Controllers
 {
     [ApiController]
@@ -10,8 +12,18 @@ namespace API.Controllers
         [HttpGet]
         public IEnumerable<Movies> Get()
         {
-            return Data.Instance.lista;
+            int cont = Data.Instance.lista.Count;
+            if (cont < 11)
+            {
+                return Data.Instance.lista;
+            }
+            else
+            {
+                return Data.Instance.lista.Skip(cont - 10).ToList();
+            }
+
         }
+
 
         [HttpPost]
         public void Post([FromBody]Movies newMovies)
